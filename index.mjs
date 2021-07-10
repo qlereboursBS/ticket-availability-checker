@@ -22,6 +22,7 @@ const checkAvailabilities = async () => {
       notify(message);
     }
   } catch (e) {
+    console.error(e);
     notify("Couldn't retrieve and send availabilities", e.message);
   }
 };
