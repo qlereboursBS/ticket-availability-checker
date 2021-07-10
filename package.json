@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-schedule": "^2.0.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "puppeteer": "^10.1.0",
+    "request": "^2.88.2"
+  },
+  "type": "module"
+}
